@@ -1,0 +1,62 @@
+body,
+a {
+	color: rgb(94, 94, 94);
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 0 0.8em 0.5em 0;
+	font-size: 1.1em
+}
+
+button {
+	background-color: rgb(242, 242, 242);
+	border: solid 1px transparent;
+	margin-right: 3em;
+	padding: 1em;
+	font-style: 1.5em;
+}
+
+button:hover {
+	border: 1px solid rgb(175, 175, 175);
+}
+
+#navbar {
+	text-align: right;
+	margin: 0.2em 1em 0 0;
+}
+
+#navbar li img {
+	border-radius: 50%;
+}
+
+#wrapper {
+	text-align: center;
+	width: 40%;
+	margin: 9em auto 0;
+}
+
+#logo img {
+	max-width: 40%;
+	margin-bottom: 2.3em;
+}
+
+#searchbar input {
+	width: 90%;
+	height: 2.5em;
+	padding: 0 0.5em;
+	margin-bottom: 3em
+}
+
+#searchbar input:after {
+	
+}
+
+
+#footer {
+	background-color: rgb(242, 242, 242);
+	position: absolute;
+	bottom: 0;
+}
